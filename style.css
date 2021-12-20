@@ -33,6 +33,10 @@ header{
     float: left;
 }
 
+.fr{
+    float: right;
+}
+
 .logo{
     height: 70px;
     width: 140px;
@@ -109,4 +113,85 @@ section div .button{
     background-color: rgb(41, 37, 37);
     color: white;
     margin-left: 20px;
+}
+
+main .container{
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+main section .img{
+    max-width: 60%;
+}
+
+main section .img.fl, .img.fr{
+    max-width: 50%;
+}
+
+main section .paragrafo-main{
+    max-width: 40%;
+}
+
+section .paragrafo-main h1{
+    font-size: 52px;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+section .paragrafo-main p{
+    font-size: 22px;
+    margin-bottom: 130px;
+}
+
+.space-top{
+    padding-top: 200px;
+}
+
+section .paragrafo-main p:last-child{
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+main section .img:last-child{
+    max-width: 100%;
+}
+
+.final-paragrafo{
+    text-align: center;
+}
+
+main section .final-paragrafo h1{
+    font-size: 52px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+main section .final-paragrafo p{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.bkg-grey{
+    background-color: rgba(204, 200, 200,0.2);
+}
+
+.last-bkg-main{
+    background-image: url(img/stars.svg);
+    width: 35%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.last-bkg-main h2{
+    font-size: 32px;
+    font-weight: 900;
+    padding-bottom: 50px;
+}
+
+.bkg-grey:last-child{
+    padding-bottom: 150px;
+}
+
+.bkg-grey a{
+    background-color: rgb(149, 178, 216);
+    color: white;
 }
