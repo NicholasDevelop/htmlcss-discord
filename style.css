@@ -14,6 +14,14 @@ img{
     width: 100%;
 }
 
+.col-2{
+    width: calc( ( 100% / 12) * 2 );
+}
+
+.col-4{
+    width: calc( ( 100% / 12) * 4 );
+}
+
 /* header */
 
 header{
@@ -44,7 +52,7 @@ header{
 }
 
 nav{
-    width: 80%;
+    width: calc( 100% - 140px - 80px );
     text-align: center;
 }
 
@@ -57,9 +65,17 @@ nav ul li{
     color: white;
 }
 
+header section div a{
+    width: 80px;
+}
+
 a{
     text-decoration: none;
     color: currentColor;
+}
+
+section{
+    position: relative;
 }
 
 section div .button{
@@ -174,9 +190,20 @@ main section .final-paragrafo p{
     background-color: rgba(204, 200, 200,0.2);
 }
 
+.wave-top{
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    color: rgba(204, 200, 200,0.2);
+}
+
 .last-bkg-main{
     background-image: url(img/stars.svg);
-    width: 35%;
+    padding: 35px 5px;
+    background-position: top center;
+    background-repeat: no-repeat;
     text-align: center;
     margin: 0 auto;
 }
@@ -194,4 +221,49 @@ main section .final-paragrafo p{
 .bkg-grey a{
     background-color: rgb(149, 178, 216);
     color: white;
+}
+
+/* footer rules */
+
+footer{
+    background-color: rgb(41, 37, 37);
+    color: white;
+    padding: 90px 15px;
+    min-height: 500px;
+}
+
+footer .widget .widget-main-title{
+    color: #7086d6;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+footer .widget img{
+    width: 20px;
+}
+
+footer select{
+    background-color: #292525;
+    border-color: #292525;
+    color: white;
+}
+
+footer form{
+    display: inline-block;
+}
+
+footer .widget-title{
+    color: #7086d6;
+}
+
+#colophon {
+    border-top: 1px solid #7086d6;
+}
+
+footer .social li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 15px;
+    font-size: 18px;
+    list-style: none;
 }
