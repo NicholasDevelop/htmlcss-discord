@@ -18,6 +18,14 @@ img{
     width: calc( ( 100% / 12) * 2 );
 }
 
+.col-8{
+    width: calc( ( 100% / 12) * 8 );
+}
+
+.col-3{
+    width: calc( ( 100% / 12) * 3 );
+}
+
 .col-4{
     width: calc( ( 100% / 12) * 4 );
 }
@@ -263,7 +271,30 @@ footer .widget-title{
 footer .social li{
     display: inline-block;
     margin-top: 20px;
-    margin-right: 15px;
+    margin-right: 20px;
     font-size: 18px;
     list-style: none;
+}
+
+footer ul{
+    margin-bottom: 30px;
+}
+
+footer ul li{
+    list-style: none;
+    margin-top: 10px;
+}
+
+#colophon{
+    padding-top: 30px;
+}
+
+#colophon img{
+    width: 100px;
+}
+
+#colophon .col a{
+    border-radius: 32px;
+    padding: 5px 10px;
+    background-color: #7086d6;
 }
